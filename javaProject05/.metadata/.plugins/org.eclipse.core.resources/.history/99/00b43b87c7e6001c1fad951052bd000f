@@ -1,0 +1,8 @@
+package org.java.varable2;
+
+public class VarEx1 {
+	
+	public static void main(String[] args) {
+		System.out.println("변수, 자료형, 형변화");
+	}
+}

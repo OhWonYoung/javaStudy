@@ -1,0 +1,22 @@
+package org.java.varable2;
+
+public class VarEx1 {
+	
+	public static void main(String[] args) {
+		System.out.println("변수, 자료형, 형변화");
+		
+		int i=10;
+		char ch='a';
+		
+		ClassBasic c1 = new ClassBasic();
+		String str1 = new String();
+		
+		//사용자 정의 타입(클래스)
+		VarSub v1 = new VarSub();
+		v1.num1;
+		v1.num2;
+		
+		
+		
+	}
+}

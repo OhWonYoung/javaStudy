@@ -1,0 +1,11 @@
+package org.java.loop;
+
+public class While3 {
+
+	public static void main(String[] args) {
+		System.out.println("do ~ while");
+		
+		
+		
+	}
+}

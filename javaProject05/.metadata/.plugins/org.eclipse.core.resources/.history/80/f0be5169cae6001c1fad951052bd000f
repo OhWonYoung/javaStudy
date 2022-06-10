@@ -1,0 +1,13 @@
+package org.java.varable2;
+
+public class VarSub {
+
+	public int num1;
+	public static int num2;
+	private int num3;
+	
+	public void method(int num1, int num2) {
+		
+		int num3=num1+num2;
+	}
+}

@@ -1,0 +1,26 @@
+package org.java.loop;
+
+public class While3 {
+
+	public static void main(String[] args) {
+		System.out.println("do ~ while");
+		
+		for(int i2=2;i2<1;i2++) {//½ÇÇàÀÌ ¾ÈµÊ
+			System.out.println(i2);
+		}
+		
+		int i2=2;
+		while (i2<1) {//½ÇÇàÀÌ ¾ÈµÊ
+			System.out.println(i2);
+		}
+		
+		
+		
+		int i=2;
+		
+		do {
+			System.out.println(i);
+		}while(i<1);
+		
+	}
+}

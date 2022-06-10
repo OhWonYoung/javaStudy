@@ -1,0 +1,22 @@
+package org.java.test;
+
+import java.util.Scanner;
+
+public class test_0609 {
+
+	public static void main(String[] args) {
+		
+		Scanner scn = new Scanner(System.in);
+		
+		System.out.println("국어 점수를 입력해주세요.");
+		scn.nextInt();
+		
+		System.out.println("영어 점수를 입력해주세요.");
+		scn.nextInt();
+	
+		
+		System.out.println("수학 점수를 입력해주세요.");
+		scn.nextInt();
+		
+	}
+}

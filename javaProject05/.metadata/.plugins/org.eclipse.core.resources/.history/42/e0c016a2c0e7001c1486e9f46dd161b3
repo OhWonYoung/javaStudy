@@ -1,0 +1,92 @@
+package org.java.condition;
+
+import java.util.Scanner;
+
+public class GradeMain {
+
+	public static void main(String[] args) {
+	
+		
+
+		Scanner scn = new Scanner(System.in);
+		
+		System.out.println("국어 성적을 입력해주세요");
+		int kor = scn.nextInt();
+		
+		System.out.println("영어 성적을 입력해주세요");
+		int eng = scn.nextInt();
+		
+		System.out.println("수학 성적을 입력해주세요");
+		int math = scn.nextInt();
+		
+		Grade grade= new Grade();
+		
+		
+		
+		if(avg>=90) {
+			if(avg>=95) {
+				System.out.println("학점: A+");
+			}else {
+				System.out.println("학점: A");
+			}
+		}else if(avg>=80) {
+			if(avg>=85) {
+				System.out.println("학점: B+");
+			}else {
+				System.out.println("학점: B");
+			}
+		}else if(avg>=70) {
+			if(avg>=75) {
+				System.out.println("학점: C+");
+			}else {
+				System.out.println("학점: C");
+			}
+		}else if(avg>=60) {
+			if(avg>=65) {
+				System.out.println("학점: D+");
+			}else {
+				System.out.println("학점: D");
+			}
+		}else {
+			System.out.println("학점: F");
+		}
+		
+		scn.close();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

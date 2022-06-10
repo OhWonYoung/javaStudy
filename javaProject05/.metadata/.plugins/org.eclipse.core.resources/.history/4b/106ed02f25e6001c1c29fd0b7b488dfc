@@ -1,0 +1,14 @@
+package org.java.varable;
+//import java.lang.System;
+//java.lang패키지 않의 클래스는 자동으로 import된다.
+public class HellowWorld {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hellow World");
+		System.out.println(100);
+		System.out.println(false);
+		System.out.println('a');
+		
+	}
+}
