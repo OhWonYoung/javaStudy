@@ -1,9 +1,0 @@
-package org.java.varable;
-import java.lang.System;
-public class HellowWorld {
-
-	public static void main(String[] args) {
-		
-		
-	}
-}
